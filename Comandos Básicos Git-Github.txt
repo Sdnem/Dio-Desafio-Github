@@ -1,0 +1,72 @@
+Configuração Inicial:
+
+	*Configurar seu nome de usuário e e-mail
+		git config --global user.name "Seu Nome"
+		git config --global user.email "seuemail@exemplo.com"
+
+	*Verificar configurações
+		git config --list
+=======================================================================================================
+Criar e Clonar Repositórios:
+
+	*Criar um novo repositório
+		git init nome-do-repositorio
+
+	*Clonar um repositório existente
+		git clone https://github.com/usuario/repo.git
+=======================================================================================================
+Trabalhando com Arquivos:
+
+	*Adicionar arquivos ao índice (staging area)
+		git add nome-do-arquivo
+
+	*Para adicionar todos os arquivos modificados
+		git add .
+
+	*Remover arquivos do índice
+		git reset nome-do-arquivo
+
+	*Comitar mudanças:
+		git commit -m "Mensagem do commit"
+=======================================================================================================
+Consultar Histórico e Status:
+
+	*Verificar o status dos arquivos
+		git status
+
+	*Verificar o histórico de commits
+		git log
+
+	*Verificar diferenças entre arquivos
+		git diff
+=======================================================================================================
+Trabalhar com Branches (Ramos):
+
+	*Criar uma nova branch
+		git branch nome-da-branch
+
+	*Trocar para uma branch
+		git checkout nome-da-branch
+
+	*Criar e trocar para uma nova branch
+		git checkout -b nome-da-branch
+
+	*Listar branches
+		git branch
+
+	*Mesclar uma branch na branch atual
+		git merge nome-da-branch
+=======================================================================================================
+Sincronização com Repositórios Remotos
+
+	*Adicionar um repositório remoto
+		git remote add origin https://github.com/usuario/repo.git
+
+	*Enviar commits para o repositório remoto
+		git push origin nome-da-branch
+
+	*Baixar mudanças do repositório remoto
+		git pull origin nome-da-branch
+
+	*Verificar repositórios remotos
+		git remote -v

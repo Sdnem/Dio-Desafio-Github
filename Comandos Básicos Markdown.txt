@@ -1,0 +1,69 @@
+Cabeçalhos:
+
+	# Cabeçalhão 1
+	## Cabeçalhão 2
+	### Cabeçalhão 3
+	#### Cabeçalhão 4
+	##### Cabeçalhão 5
+	###### Cabeçalhão 6
+=======================================================================================================
+Estilos de Texto:
+
+	Negrito
+		**Texto em negrito** ou __Texto em negrito__
+
+	Itálico
+		*Texto em itálico* ou _Texto em itálico_
+
+	Riscado
+		~~Texto riscado~~
+=======================================================================================================
+Listas:
+
+	Listas Ordenadas
+		1. Primeiro item
+		2. Segundo item
+ 		  1. Subitem
+		3. Terceiro item
+
+	Listas Não Ordenadas
+		- Item 1
+		- Item 2
+  		  - Subitem
+		- Item 3
+=======================================================================================================
+Links e Imagens:
+
+	Links
+		[Texto do Link](https://www.exemplo.com)
+
+	Imagens
+		![Texto Alternativo](https://www.exemplo.com/imagem.jpg)
+=======================================================================================================
+Códigos:
+
+	Código Inline
+		`código inline`
+
+	Bloco de Código
+		```python
+		def hello_world():
+    			print("Hello, World!")
+		(Substitua `python` pelo nome da linguagem, se necessário)
+=======================================================================================================
+Tabelas:
+
+	Tabelas Simples
+		| Cabeçalho 1 | Cabeçalho 2 |
+		|-------------|-------------|
+		| Linha 1, Col 1 | Linha 1, Col 2 |
+		| Linha 2, Col 1 | Linha 2, Col 2 |
+=======================================================================================================
+Citações:
+
+	Citação de Bloco
+		> Esta é uma citação de bloco.
+=======================================================================================================
+Linhas Horizontais:
+
+	--- ou *** ou ___
