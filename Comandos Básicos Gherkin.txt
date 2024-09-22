@@ -1,0 +1,15 @@
+Feature: Define uma funcionalidade.
+
+Scenario: Descreve um caso de teste específico.
+
+Given: Define o contexto inicial.
+
+When: Descreve uma ação ou evento.
+
+Then: Define o resultado esperado.
+
+And / But: Usado para adicionar condições ou ações adicionais.
+
+Background: Define passos que são comuns a vários cenários.
+
+Scenario Outline: Permite criar cenários com exemplos.
